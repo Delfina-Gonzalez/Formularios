@@ -1,0 +1,38 @@
+Reporte de Formularios - Cliente 6382
+Este repositorio contiene una herramienta de análisis y un dashboard interactivo para monitorear el cumplimiento de formularios obligatorios por parte de los usuarios.
+
+🚀 Cómo ejecutar la aplicación
+1. Clonar el repositorio
+Bash
+
+git clone https://github.com/Delfina-Gonzalez/Formularios.git
+cd Formularios
+2. Instalar dependencias
+Asegúrate de tener Python instalado. Luego, instala las librerías necesarias:
+
+Bash
+
+pip install streamlit pandas openpyxl
+
+3. Ejecutar Streamlit
+Para ver el dashboard interactivo de formularios pendientes:
+
+Bash streamlit run Inicio.py o desde el URL PÚBLICO: [https://formularios-k8hnvpskr2xj97ug6lxsgy.streamlit.app/]
+
+📋 Contenido del Proyecto
+Inicio.py: Aplicación principal en Streamlit. Permite filtrar por usuario para ver sus pendientes y descargar el listado total de incumplimientos.
+
+consigna.ipynb: Jupyter Notebook con el análisis técnico solicitado:
+
+Porcentaje de completitud por tipo de formulario.
+
+Porcentaje de formularios completados por cada persona.
+
+/data: Carpeta donde se debe alojar el archivo .xlsx con las hojas Formularios totales y Formularios completados.
+
+🛠️ Requisitos técnicos
+Python 3.10+
+
+Pandas: Procesamiento de datos.
+
+Streamlit: Interfaz del reporte.
